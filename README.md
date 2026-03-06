@@ -11,6 +11,6 @@ UARTCommunication7Seg/
 │   ├── src/            # Source code in Verilog
 │   └── par/            # Place and Route (Quartus settings and project files)
 ├── Python/
-│   └── UART.py         # UART Communication Python script for Raspberry Pi
+│   └── UARTCommunication.py         # UART Communication Python script for Raspberry Pi
 └── README.md
 ```
