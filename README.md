@@ -1,9 +1,12 @@
 # UART Communication: Raspberry Pi 4 to FPGA (7-Segment)
 
 ## 📝 Project Description
-This project establishes a serial communication link between a **Raspberry Pi 4** and an **FPGA board**. 
 
-A Python script running on the Raspberry Pi sends data via UART. The FPGA receives this data, processes it through a custom-built UART controller, and decodes the ASCII characters to display them in real-time on a **4-digit 7-segment display**. This project demonstrates hardware-software integration, precise timing for baud rate generation, and modular Verilog design.
+This project establishes a robust serial communication link between a **Raspberry Pi 4** and an **FPGA board**. 
+
+A **Python script** running on the Raspberry Pi sends data via **UART**. The FPGA receives this data through a custom-built UART controller and immediately **sends the data back to the Raspberry Pi** to ensure **"Double linked"** (bidirectional) communication and data integrity. Simultaneously, the FPGA decodes the **ASCII characters** to display them in real-time on a **4-digit 7-segment display**. 
+
+This project demonstrates complex hardware-software integration, precise timing for **baud rate generation**, and modular **Verilog design**.
 
 ---
 
@@ -25,7 +28,6 @@ The image below shows the hardware setup: The Raspberry Pi 4 monitor sending dat
 
 ---
 
-## 📂 Project Structure
 ## 📂 Project Structure
 
 ```text
