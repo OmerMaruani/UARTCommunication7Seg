@@ -1,0 +1,257 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/VerilogNew/UARTCommunication/sim
+vascii_to_7seg
+Z1 !s110 1772300807
+!i10b 1
+!s100 B8WK]Mk5NWDjkN@D7lbZQ3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV@X48?2E`j?KOfkQTBHLe1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/VerilogNew/UARTCommunication7Seg/sim
+w1771588223
+8../src/ascii_to_7seg.v
+F../src/ascii_to_7seg.v
+!i122 311
+L0 6 84
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1772300806.000000
+!s107 ../src/ascii_to_7seg.v|
+!s90 -reportprogress|300|../src/ascii_to_7seg.v|
+!i113 1
+Z7 tCvgOpt 0
+vbaud_gen
+Z8 !s110 1772300806
+!i10b 1
+!s100 eH]N7F5eRUU2n9=L;TSCf3
+R2
+I@JD`nJ@YULH1:bSg_:_:X2
+R3
+R4
+w1755075730
+8../src/baud_gen.v
+F../src/baud_gen.v
+!i122 306
+L0 6 33
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/baud_gen.v|
+!s90 -reportprogress|300|../src/baud_gen.v|
+!i113 1
+R7
+vbaud_gen_tb
+!s110 1749455623
+!i10b 1
+!s100 ImDfd2PPd;Rn:@K>[aKNk0
+R2
+ICl]0c6:;hY?S0A7kW4gAa3
+R3
+R0
+w1749455614
+8../src/baud_gen_tb.v
+F../src/baud_gen_tb.v
+!i122 26
+L0 8 50
+R5
+r1
+!s85 0
+31
+!s108 1749455623.000000
+!s107 ../src/baud_gen_tb.v|
+!s90 -reportprogress|300|../src/baud_gen_tb.v|
+!i113 1
+R7
+vcounter
+R8
+!i10b 1
+!s100 NIa:chMzY9m@>l4zQf8>X2
+R2
+IW8NHRKbPeU9Q;e]AUOb?Y3
+R3
+R4
+w1771220215
+8../src/counter.v
+F../src/counter.v
+!i122 309
+L0 6 54
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/counter.v|
+!s90 -reportprogress|300|../src/counter.v|
+!i113 1
+R7
+vdecoder
+R8
+!i10b 1
+!s100 KnKLESd_?XY8NejoMaFd]3
+R2
+I@8`8;>d5iO2mPMSJSoDEd3
+R3
+R4
+w1771222554
+8../src/decoder.v
+F../src/decoder.v
+!i122 310
+L0 6 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/decoder.v|
+!s90 -reportprogress|300|../src/decoder.v|
+!i113 1
+R7
+vRx_module
+R8
+!i10b 1
+!s100 FDgF]z>3;=U>EK5Qfo7M^2
+R2
+IWKY:c0knEL=0UANzjbCQ53
+R3
+R4
+w1768800155
+8../src/Rx_module.v
+F../src/Rx_module.v
+!i122 307
+L0 7 113
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/Rx_module.v|
+!s90 -reportprogress|300|../src/Rx_module.v|
+!i113 1
+R7
+n@rx_module
+vRx_module_tb
+!s110 1755155237
+!i10b 1
+!s100 PCAEcOR3PC=KdSE<]C=d81
+R2
+I2SmUS5KPCkid2HdkPcU=_0
+R3
+R0
+w1755074404
+8../src/Rx_module_tb.v
+F../src/Rx_module_tb.v
+!i122 98
+L0 9 83
+R5
+r1
+!s85 0
+31
+!s108 1755155237.000000
+!s107 ../src/Rx_module_tb.v|
+!s90 -reportprogress|300|../src/Rx_module_tb.v|
+!i113 1
+R7
+n@rx_module_tb
+vTx_module
+R8
+!i10b 1
+!s100 ZGMcG;7Lg]QLKKVceo4jk1
+R2
+IffmEgm=kBIEoXBboY_n3G1
+R3
+R4
+w1755156078
+8../src/Tx_module.v
+F../src/Tx_module.v
+!i122 308
+L0 6 108
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/Tx_module.v|
+!s90 -reportprogress|300|../src/Tx_module.v|
+!i113 1
+R7
+n@tx_module
+vTx_module_tb
+!s110 1755156082
+!i10b 1
+!s100 C2lb<ZNTSf9QS[2>d^OU70
+R2
+I:0ZZNlHePFJVmO5DTHT8f0
+R3
+R0
+w1751354543
+8../src/Tx_module_tb.v
+F../src/Tx_module_tb.v
+!i122 132
+L0 8 66
+R5
+r1
+!s85 0
+31
+!s108 1755156082.000000
+!s107 ../src/Tx_module_tb.v|
+!s90 -reportprogress|300|../src/Tx_module_tb.v|
+!i113 1
+R7
+n@tx_module_tb
+vuart_controller
+R1
+!i10b 1
+!s100 fodSngJ2o>WJMQS5K=S[m2
+R2
+I=e]WhYbGOiaa1Czik:9gn1
+R3
+R4
+w1772300802
+8../src/uart_controller.v
+F../src/uart_controller.v
+!i122 312
+L0 8 63
+R5
+r1
+!s85 0
+31
+Z9 !s108 1772300807.000000
+!s107 ../src/uart_controller.v|
+!s90 -reportprogress|300|../src/uart_controller.v|
+!i113 1
+R7
+vuart_controller_tb
+R1
+!i10b 1
+!s100 I7YJa7jCJ2SXi<VOGbaS@1
+R2
+Ik_F2lb2M5dbaDYUWnln`13
+R3
+R4
+w1772300705
+8../src/uart_controller_tb.v
+F../src/uart_controller_tb.v
+!i122 313
+L0 8 121
+R5
+r1
+!s85 0
+31
+R9
+!s107 ../src/uart_controller_tb.v|
+!s90 -reportprogress|300|../src/uart_controller_tb.v|
+!i113 1
+R7

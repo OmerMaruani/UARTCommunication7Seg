@@ -1,0 +1,165 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -4.640
+TNS   : -154.720
+
+Type  : Slow 1100mV 85C Model Setup 'baud_gen:baud_gen_module|signal_out'
+Slack : -2.917
+TNS   : -33.898
+
+Type  : Slow 1100mV 85C Model Setup 'Rx_module:rx_module|curr_state.DATA'
+Slack : -2.040
+TNS   : -2.040
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -2.690
+TNS   : -58.481
+
+Type  : Slow 1100mV 85C Model Hold 'baud_gen:baud_gen_module|signal_out'
+Slack : -1.324
+TNS   : -9.365
+
+Type  : Slow 1100mV 85C Model Hold 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.599
+TNS   : -40.224
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'baud_gen:baud_gen_module|signal_out'
+Slack : -0.538
+TNS   : -25.670
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Rx_module:rx_module|bit_index[0]'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -4.394
+TNS   : -149.612
+
+Type  : Slow 1100mV 0C Model Setup 'baud_gen:baud_gen_module|signal_out'
+Slack : -2.903
+TNS   : -34.807
+
+Type  : Slow 1100mV 0C Model Setup 'Rx_module:rx_module|curr_state.DATA'
+Slack : -1.919
+TNS   : -1.919
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.830
+TNS   : -62.223
+
+Type  : Slow 1100mV 0C Model Hold 'baud_gen:baud_gen_module|signal_out'
+Slack : -1.195
+TNS   : -8.127
+
+Type  : Slow 1100mV 0C Model Hold 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.449
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.622
+TNS   : -42.909
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'baud_gen:baud_gen_module|signal_out'
+Slack : -0.538
+TNS   : -25.261
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Rx_module:rx_module|bit_index[0]'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.934
+TNS   : -77.282
+
+Type  : Fast 1100mV 85C Model Setup 'baud_gen:baud_gen_module|signal_out'
+Slack : -1.349
+TNS   : -12.033
+
+Type  : Fast 1100mV 85C Model Setup 'Rx_module:rx_module|curr_state.DATA'
+Slack : -0.669
+TNS   : -0.669
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.348
+TNS   : -30.763
+
+Type  : Fast 1100mV 85C Model Hold 'baud_gen:baud_gen_module|signal_out'
+Slack : -0.886
+TNS   : -6.741
+
+Type  : Fast 1100mV 85C Model Hold 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.561
+TNS   : -5.602
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'baud_gen:baud_gen_module|signal_out'
+Slack : -0.125
+TNS   : -1.404
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Rx_module:rx_module|bit_index[0]'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -2.448
+TNS   : -63.481
+
+Type  : Fast 1100mV 0C Model Setup 'baud_gen:baud_gen_module|signal_out'
+Slack : -1.198
+TNS   : -10.189
+
+Type  : Fast 1100mV 0C Model Setup 'Rx_module:rx_module|curr_state.DATA'
+Slack : -0.530
+TNS   : -0.530
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.364
+TNS   : -31.721
+
+Type  : Fast 1100mV 0C Model Hold 'baud_gen:baud_gen_module|signal_out'
+Slack : -0.811
+TNS   : -6.249
+
+Type  : Fast 1100mV 0C Model Hold 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.527
+TNS   : -5.382
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'baud_gen:baud_gen_module|signal_out'
+Slack : -0.061
+TNS   : -0.468
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Rx_module:rx_module|bit_index[0]'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Rx_module:rx_module|curr_state.DATA'
+Slack : 0.394
+TNS   : 0.000
+
+------------------------------------------------------------

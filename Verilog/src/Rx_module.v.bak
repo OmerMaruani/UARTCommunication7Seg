@@ -1,0 +1,122 @@
+
+
+
+
+
+
+module Rx_module #(parameter DATA_BITS=8) (clk,rst_n,rx_pin,byte_out,byte_valid);
+
+	input clk;
+	input rst_n;
+	input rx_pin;
+	output reg [DATA_BITS-1:0] byte_out;
+	output reg byte_valid;
+	
+	
+	reg [1:0] curr_state, next_state;
+	reg [2:0] bit_index;
+	
+	parameter [1:0] IDLE  = 2'b00;
+	parameter [1:0] START = 2'b01;
+	parameter [1:0] DATA  = 2'b10;
+	parameter [1:0] STOP  = 2'b11;
+	
+	
+	reg sync_rx;
+	reg sync2_rx;
+	
+	// SYNC2 ****
+	
+	// Combinataional logic, next_state transition
+	always @(*) begin
+		case(curr_state)
+			IDLE: next_state = ( sync2_rx == 0) ? DATA : IDLE;
+			//START: next_state = DATA;
+			DATA: next_state = ( bit_index == 7) ? STOP : DATA; // Alternative we can check rx_pin == 1 & bit_index == 7
+			STOP: next_state = ( sync2_rx == 0) ? DATA : IDLE;
+			
+			default: next_state = IDLE;
+		endcase
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	// Sequential block, curr_state transition
+	always @(posedge clk or negedge rst_n) begin
+		if(!rst_n) begin
+			curr_state <= IDLE;
+		end
+		else begin
+			curr_state <= next_state;
+		end
+	end
+	
+	
+	
+	
+	
+	
+	
+	
+	// Combinational logic, output changes based on curr_state
+	always @(*) begin
+	
+		case(curr_state)
+			IDLE:  byte_valid = 0;
+			START: byte_valid = 0;
+			DATA: byte_out[bit_index] = sync2_rx;
+			STOP: byte_valid = 1;
+			
+			default: next_state = IDLE;
+		endcase
+	end
+	
+	
+	
+	
+	
+	// Sequential logic, output changes for Registers, counters, etc
+	always @(posedge clk or negedge rst_n) begin
+	
+		if(!rst_n) begin
+			bit_index <= 0;
+		end
+		
+		else begin
+			case(curr_state)
+			//IDLE:
+			//START: 
+			DATA: bit_index <= bit_index + 1;
+			//STOP: 
+			
+			//default: 
+			
+		endcase
+		end
+	
+	
+	end
+	
+	
+	
+	
+	
+	// Synchronous rx_in
+	always @(posedge clk or negedge rst_n) begin
+		sync_rx <= rx_pin;
+		sync2_rx <= sync_rx;
+	end
+	
+	
+	
+	
+	
+endmodule
+	
+	
+	

@@ -1,0 +1,13 @@
+
+State Machine - |uart_controller|Tx_module:tx_module|curr_state
+Name curr_state.STOP curr_state.DATA curr_state.START curr_state.IDLE 
+curr_state.IDLE 0 0 0 0 
+curr_state.START 0 0 1 1 
+curr_state.DATA 0 1 0 1 
+curr_state.STOP 1 0 0 1 
+
+State Machine - |uart_controller|Rx_module:rx_module|curr_state
+Name curr_state.DATA curr_state.IDLE curr_state.STOP 
+curr_state.IDLE 0 0 0 
+curr_state.DATA 1 1 0 
+curr_state.STOP 0 1 1 
