@@ -1,10 +1,16 @@
-# My Verilog Project
 
-### File Structure
+
+
+
+## Project Structure
+
 ```text
-/src/                # Verilog source files
-/sim/                # Simulations and helper scripts
-/sim/bitmap/         # Python scripts for image-to-MIF conversion
-/sim/bitmap/PixelsFilesGenerator.py
-/images/             # Diagrams and visuals
+UARTCommunication7Seg/
+├── Verilog/
+│   ├── sim/            # Testbenches and simulation scripts
+│   ├── src/            # Source code in Verilog
+│   └── par/            # Place and Route (Quartus settings and project files)
+├── Python/
+│   └── UART.py         # UART Communication Python script for Raspberry Pi
+└── README.md
 ```
