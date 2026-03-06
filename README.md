@@ -20,7 +20,7 @@ This diagram illustrates the internal logic of the FPGA, including the UART rece
 The image below shows the hardware setup: The Raspberry Pi 4 monitor sending data and the FPGA board displaying the result.
 
 <p align="center">
-  <img src="Images/UARTCommunicationFPGARaspberryPi4.png" width="700" alt="Hardware Setup">
+  <img src="Images/UARTCommunicationFPGARaspberryPi.png" width="700" alt="Hardware Setup">
 </p>
 
 ---
