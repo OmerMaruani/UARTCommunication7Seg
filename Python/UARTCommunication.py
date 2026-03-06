@@ -139,3 +139,4 @@ if __name__ == "__main__":
     StringSend(ser, 'ABC', WAIT_ENTER = True, ASCII= True)
     '''
     UARTClose(ser)
+
