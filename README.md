@@ -26,32 +26,38 @@ The image below shows the hardware setup: The Raspberry Pi 4 monitor sending dat
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 UARTCommunication7Seg/
 ├── Verilog/
 │   ├── sim/                    # Simulation folder
-│   │   └── *.do                # ModelSim scripts for testbenches
-|   |
-│   ├── src/                    # Verilog Source Files
+│   │   └── *.do                # ModelSim scripts for testbench automation
+│   │
+│   ├── src/                    # Verilog Source Files and Testbenches
 │   │   ├── uart_controller.v   # Main UART system controller
+│   │   ├── uart_controller_tb.v# Testbench for UART controller
 │   │   ├── Rx_module.v         # UART Receiver logic
+│   │   ├── Rx_module_tb.v      # Testbench for UART Receiver
 │   │   ├── Tx_module.v         # UART Transmitter logic
+│   │   ├── Tx_module_tb.v      # Testbench for UART Transmitter
 │   │   ├── baud_gen.v          # Baud rate generator (timing)
+│   │   ├── baud_gen_tb.v       # Testbench for Baud rate generator
 │   │   ├── ascii_to_7seg.v     # ASCII to 7-Segment conversion logic
 │   │   ├── decoder.v           # System decoder
 │   │   └── counter.v           # General purpose counter
-|   |
+│   │
 │   └── par/                    # Place and Route (Quartus settings)
-|   |
+│
 ├── Python/
 │   └── UART.py                 # UART Communication script for Raspberry Pi 4
 └── README.md
 ```
 
-## 🎥 Demo Video
-<!-- Paste your video link or HTML code here -->
 
+## 🎥 Demo Video
+You can wach the demonstration video on my Linkedin profile:
+https://www.linkedin.com/in/omer-maruani-6a5602271/
 
 
 
