@@ -1,4 +1,4 @@
-# UART Communication: Raspberry Pi 4 to FPGA (7-Segment)
+# UART Communication: Raspberry Pi 4 to FPGA
 
 ## 📝 Project Description
 
