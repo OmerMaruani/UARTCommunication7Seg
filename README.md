@@ -1,3 +1,6 @@
+
+גרסה בעברית:
+
 # UART Communication: Raspberry Pi 4 to FPGA
 
 ## 📝 Project Description
@@ -64,7 +67,6 @@ https://www.linkedin.com/in/omer-maruani-6a5602271/
 
 
 
-פוסט בעברית::::
 
 
 
