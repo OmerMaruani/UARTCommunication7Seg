@@ -1,6 +1,3 @@
-
-גרסה בעברית:
-
 # UART Communication: Raspberry Pi 4 to FPGA
 
 ## 📝 Project Description
